@@ -1,0 +1,115 @@
+html {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(48, 48, 48), rgb(12, 12, 12));
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(163, 163, 172);
+}
+body {
+    display: flex;
+    justify-content: flex-start;
+}
+a {
+    text-decoration: none;
+    color: rgb(163, 163, 172);
+    font-size: 20px;
+    transition: all .5s;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.firstBox {
+    box-shadow: 0 0 10px black;
+    height: auto;
+    width: 120px;
+    background: linear-gradient(#181818, #030303);
+    border-radius: 5px;
+}
+.AthTitle {
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+    margin-bottom: 50px;
+    user-select: none;
+    background-color: rgb(29, 29, 29);
+    border-radius: 5px;
+    box-shadow: 0 0 7px black;
+}
+.Links {
+    margin-left: 10px;
+    margin-bottom: 50px;
+    transition: all .2s;
+}
+a:hover {
+    color: rgb(88, 88, 88);
+}
+.linkBtn {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 115px;
+    margin: 10px;
+    margin-bottom: 25px;
+    padding: 4px;
+    background: rgb(24, 23, 23);
+    box-shadow: 0  0 10px black;
+    transition: all .4s;
+}
+.linkBtn:hover {
+    background-color: rgb(32, 32, 32);
+}
+.periphery {
+    display: flex;
+    box-shadow: 0 0 7px black;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: rgb(29, 29, 29);
+    width: auto;
+    height: 80px;
+}
+.linkSup {
+    display: flex;
+    justify-content: center;
+    
+    box-shadow: 0 0 5px black;
+
+    margin-top: 12.5px;
+    margin-right: 25px;
+    margin-bottom: 12.5px;
+    border-radius: 10px;
+    padding: 12px;
+    height: auto;
+    width: 100px;
+    margin-left: 25px;
+    background: rgb(24, 23, 23);
+    transition: all .5s;
+}
+.linkSup:hover {
+    background: rgb(29, 27, 27);
+}
+.image {
+    border-radius: 10px;
+    margin: 25px;
+    box-shadow: 0 0 20px black;
+    width: 200px;
+    height: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.product {
+    display: flex;
+    position: absolute;
+    left: 220px;
+    top: 150px;
+    width: 1500px;
+    height: 700px;
+}
+.news {
+    margin: 25px;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 0 10px black;
+    min-width: 700px;
+    max-width: 1000px;
+}
+.news1 {
+    border-radius: 10px;
+}
